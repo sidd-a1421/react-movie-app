@@ -1,6 +1,9 @@
 import React from 'react'
 
 const App = () => {
+
+  const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <main>
       <div className='pattern'>
